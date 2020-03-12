@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+  <meta charset="utf-8">
+  <meta name="description" content="Visit best places of india ">
+  <meta name="author" content="Krishna panchal">
+  <meta name="viewport" content="width-device-width" initial-scale=1.0>
+  <title>INDIAN TOURISM</title>
+  <link rel="stylesheet" href="project.css">
+  <link rel="icon" href="images/title-icon.jpg" type="image/jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <!-- <div class="container"> -->
+  <header class="header">
+
+    <img src="images/logo.jpg">
+
+    <b>Incredible <span>!</span>ndia </b>
+  </header>
+
+  <nav class="nav">
+      <label for="toggle">&#9776;</label>
+      <input type="checkbox" id="toggle">
+      <div class="menu">
+              <a href="home.html" >Home</a>
+              <a href="destination.html">Destinations</a>
+              <!-- <a href="home.html">Experiences</a> -->
+              <a href="javascript:void(0)"  class="dropbtn">Experiences</a>
+              <div class="dropdown-content">
+                      <a href="heritage.html">Heritage</a>
+                      <a href="spritual.html">Spiritual</a>
+                      <a href="wildlife.html">Wildlife</a>
+                      <a href="nature.html">Nature</a>
+              </div>
+              <a href="bookingForm.html" class="active">Book Trip</a>
+              <div class="search-container">
+                      <form action="/action_page.php">
+                              <input type="text" placeholder="Search.." name="search">
+                              <button type="submit"><i class="fa fa-search"
+                                      id="serch_icon"></i></button>
+                      </form>
+              </div>
+      </div>
+
+</nav>
+  <main class="exprins-main">
+
+
+    <img src="images/contactus.jpg" alt="img2.jpg">
+
+
+    <div class="centered" style="top:30%; color :black">
+      <h2>Plan your Trip</h2>
+    </div>
+
+    <form class="myForm">
+
+      <div class="form_row">
+        <div class="form_column">
+
+          <div class="input-group">
+
+            <input id="customer_name" placeholder="Enter your Name" required pattern="[a-zA-Z]">
+          </div>
+
+          <div class="input-group">
+
+            <input type="tel" id="phone_number" placeholder="Enter your number" max="13" required>
+          </div>
+          <div class="input-group">
+
+            <input type="email" id="email_address" placeholder="example@example.com" required>
+          </div>
+
+
+          <div class="input-group">
+            <input placeholder="Arrival" class="textbox-n" type="text" onfocus="(this.type='date')" id="date">
+          </div>
+
+
+          <div class="input-group">
+
+            <input placeholder="Departure" class="textbox-n" type="text" onfocus="(this.type='date')" id="date">
+          </div>
+          <div class="input-group">
+            <p>Services Required</p>
+            <input type="checkbox" name="Services" value="Hotels"> Hotels
+            <input type="checkbox" name="Services1" value="Tour"> Tour
+            <input type="checkbox" name="Services2" value="Flight"> Flight
+            <input type="checkbox" name="Services2" value="Car Rental"> Car Rental
+          </div>
+          <div class="input-group">
+              <p>Please select your age group</p>
+             
+                <input type="radio" name="age" value="30"> 0 - 30
+                <input type="radio" name="age" value="60"> 31 - 60
+                <input type="radio" name="age" value="100"> 61 - 100
+             
+            </div>
+         
+        </div>
+        <div class="form_column">
+           
+          <div class="input-group">
+
+            <input list="country" placeholder="Select country" required>
+            <datalist id="country">
+              <option value="USA">
+              <option value="Canada">
+              <option value="Africa">
+              <option value="France">
+              <option value="China">
+            </datalist>
+          </div>
+          <div class="input-group">
+            <input type="tel" name="telephone" placeholder="contact number" required
+              placeholder="\d{3}[\-]\d{3}[\-]\d{4}"><br>
+          </div>
+          <div class="input-group">
+
+            <input type="number" name="adult" min="1" max="30" placeholder="Adults" required>
+
+          </div>
+          <div class="input-group">
+
+            <input type="number" name="child" min="0" max="30" placeholder="Children">
+
+          </div >
+       
+          
+          <div class="input-group">
+            <textarea rows="6" cols="35" placeholder="Message"></textarea>
+          </div>
+        </div>
+        <div class="form_row" style="align-self:flex-end; align-self: center;">
+
+          <button id="submit">Submit Booking</button>
+
+        </div>
+        <div class="form_row" style="margin-left: -15%; margin-top: 2%;">
+            <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="1000" height="500" id="gmap_canvas"
+                                    src="https://maps.google.com/maps?q=isi%20coll&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                    frameborder="0" scrolling="no" marginheight="0"
+                                    marginwidth="0"></iframe></div>
+                    <style>
+                            .mapouter {
+                                    position: relative;
+                                    text-align: right;
+
+                            }
+
+                            .gmap_canvas {
+                                    overflow: hidden;
+                                    background: none !important;
+
+                            }
+                    </style>
+            </div>
+    </div>
+    </form>
+
+     
+
+  </main>
+  <footer class="footer">
+    <p> &copy; Copyrights 2019-2025. All right reserved</p>
+    <div class="social-img">
+
+      <img class="img1" src="images/img3.png">
+      <img class="img2" src="images/img4.png">
+      <img class="img3" src="images/img5.png">
+      <img class="img4" src="images/img6.gif">
+    </div>
+  </footer>
+
+</body>
+
+</html>
