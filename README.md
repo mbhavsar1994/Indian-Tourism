@@ -1,8 +1,8 @@
 # Indian Tourism
 
-A responsive website developed in HTML and CSS featuring different places and city to promote Indian tourisam.
-Provide places to visite by category namely Heritage, Spritual, Natural, Wild life attractions.
-Provide a form to book a tour with services such as hotal rooms, car rental.
+A responsive website developed in HTML and CSS featuring different places and city to promote Indian tourism.
+Provides places to visit by category namely Heritage, Spritual, Natural, Wild life attractions.
+Provide a form to book a tour with services such as hotel rooms, car rental,etc.
 
 ## Installation
 
